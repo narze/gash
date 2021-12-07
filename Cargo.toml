@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.4"
+exec = { git = "https://github.com/faradayio/exec-rs" }
