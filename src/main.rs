@@ -1,6 +1,6 @@
 use rand::prelude::*;
 use std::process::Command;
-use std::{thread, time};
+// use std::{thread, time};
 // use std::os::unix::process::CommandExt;
 // use std::io::Error;
 use exec;
@@ -14,8 +14,8 @@ fn main() {
         .choose(&mut rng)
         .unwrap();
     // println!("Redirect to Shell: {}", shell);
-    let dur = time::Duration::from_millis(1000);
-    thread::sleep(dur);
+    // let dur = time::Duration::from_millis(1000);
+    // thread::sleep(dur);
 
     // let shell_path = Command::new("which").arg(shell).output().expect("failed to execute process");
     // let mut shell_str = String::from_utf8(shell_path.stdout).expect("error");
