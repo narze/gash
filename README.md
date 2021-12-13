@@ -8,3 +8,4 @@ Randomize your shell like a Gashapon
 - [ ] .gashrc
 - [ ] `Shell of the day` mode
 - [ ] `FishBash` mode (mod 3 & mod 5)
+- [ ] Receive & forward commands (`-c`)
